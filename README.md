@@ -27,17 +27,22 @@ A powerful computer vision project that detects vehicles in images and videos us
 ## 📁 Project Structure
 
 vehicle-detection-yolo/
-├── vehicle_detection.ipynb
+│
 ├── app.py
+├── vehicle_detection.ipynb
+├── requirements.txt
+├── README.md
+│
 ├── yolov8n.pt
+│
 ├── images/
 │   ├── test1.jpg
-│   ├── test2.jpg
+│   └── test2.jpg
+│
 ├── outputs/
-├── log.txt
-├── requirements.txt
-|── test.mp4
-└── README.md
+│   └── output_test1.jpg
+│
+└── log.txt
 
 ---
 
