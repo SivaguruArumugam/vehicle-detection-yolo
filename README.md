@@ -74,6 +74,7 @@ python app.py
 ## 📸 Output
 
 ![Result](output_test1.jpg)
+![Result](output_test2.jpg)
 
 ---
 
