@@ -36,6 +36,7 @@ vehicle-detection-yolo/
 ├── outputs/
 ├── log.txt
 ├── requirements.txt
+|── test.mp4
 └── README.md
 
 ---
