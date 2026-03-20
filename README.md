@@ -75,6 +75,8 @@ After running, choose mode:
 ## 📸 Output
 
 - Processed images saved in `outputs/`
+![Output1](outputs/output_test1.jpg)
+![Output2](outputs/output_test2.jpg)
 - Vehicle count displayed
 - Logs stored in `log.txt`
 
