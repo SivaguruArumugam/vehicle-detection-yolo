@@ -105,14 +105,6 @@ python app.py
 
 ---
 
-## 📖 Tamil Explanation
-
-* Vehicle Detection → வாகனங்களை கண்டறிதல்
-* Bounding Box → பொருளை சுற்றி வரையப்படும் பெட்டி
-* Confidence Score → கண்டறிதல் நம்பகத்தன்மை
-
----
-
 ## 👤 Author
 
 Sivaguru Arumugam
