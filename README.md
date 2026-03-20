@@ -1,17 +1,19 @@
 # 🚗 Vehicle Detection using YOLOv8
 
-A real-time vehicle detection system built using YOLOv8 and OpenCV.
-This project detects vehicles in images and displays bounding boxes with confidence scores.
+A Computer Vision project that detects vehicles in images and videos using YOLOv8 (Ultralytics).
+Supports multiple image input, video detection, and both Jupyter Notebook & Python script execution.
 
 ---
 
 ## 🚀 Features
 
 * 🚗 Detect vehicles in images
-* 📦 Draw bounding boxes around detected objects
-* 📊 Display confidence score
+* 🖼️ Multiple image input support
+* 🎥 Video detection support
+* 📦 Bounding box visualization
 * ⚡ Fast detection using YOLOv8
-* 🖼️ Output image saved automatically
+* 📓 Jupyter Notebook (for demo)
+* 🐍 Python script (app.py for full execution)
 
 ---
 
@@ -29,10 +31,14 @@ This project detects vehicles in images and displays bounding boxes with confide
 vehicle-detection-yolo/
 ├── app.py
 ├── vehicle_detection.ipynb
+├── images/
+│   ├── test1.jpg
+│   ├── test2.jpg
+├── test.mp4 (optional)
+├── output_test1.jpg
+├── output_test2.jpg
 ├── requirements.txt
 ├── README.md
-├── test.jpg
-├── output.jpg
 
 ---
 
@@ -44,49 +50,57 @@ pip install -r requirements.txt
 
 ## ▶️ Run the Project
 
-### Option 1: Jupyter Notebook
+### 🔹 Option 1: Jupyter Notebook
 
 jupyter notebook
 
 Open: vehicle_detection.ipynb
 
+👉 Use this for demo and learning
+
 ---
 
-### Option 2: Python Script
+### 🔹 Option 2: Python Script
 
 python app.py
+
+👉 Choose mode:
+
+1 → Image Detection
+2 → Video Detection
 
 ---
 
 ## 📸 Output
 
-![Result](output.jpg)
+![Result](output_test1.jpg)
 
 ---
 
 ## 📌 How It Works
 
 1. Load YOLOv8 pretrained model
-2. Read input image
-3. Run object detection
+2. Read image / video input
+3. Perform object detection
 4. Draw bounding boxes
-5. Display and save output image
+5. Display and save output
 
 ---
 
-## ❗ Note
+## ❗ Important Notes
 
-* Do NOT upload yolov8n.pt model file to GitHub
-* Install dependencies before running
-* Works best with clear images
+* ❌ Do NOT upload yolov8n.pt model file
+* ❌ Avoid uploading large video files
+* ✔ Use sample images for demo
+* ✔ Output images are enough for GitHub
 
 ---
 
 ## 💡 Future Improvements
 
-* 🎥 Real-time video detection
+* 🎥 Real-time webcam detection
+* 🌐 Web app (Streamlit / FastAPI)
 * 🎯 Custom dataset training
-* 🌐 Web app deployment
 
 ---
 
@@ -98,6 +112,12 @@ python app.py
 
 ---
 
+## 👤 Author
+
+Sivaguru Arumugam
+
+---
+
 ## ⭐ Conclusion
 
-This project demonstrates how YOLOv8 can be used for fast and accurate vehicle detection using Python.
+This project demonstrates real-world vehicle detection using YOLOv8 with support for images and video processing.
